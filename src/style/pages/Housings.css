@@ -1,0 +1,144 @@
+.housingsContent {
+  margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.housingsContent .titleLocationHostStars {
+  display: flex;
+  justify-content: space-between;
+  color: #FF6060;
+  margin-bottom: 24px;
+}
+
+.housingsContent .titleLocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20px;
+  row-gap: 20px;
+}
+
+.housingsContent .titleLocation h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.housingsContent .titleLocation p {
+  font-size: 18px;
+}
+
+.housingsContent .titleLocation ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 10px;
+}
+
+.housingsContent .titleLocation li {
+  color: white;
+  background-color: #FF6060;
+  min-width: 115px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 9px;
+  line-height: 22px;
+  padding: 0 15px;
+}
+
+.housingsContent .hostStars {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.housingsContent .hostStars .host {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  max-width: 167px;
+  min-width: 180px;
+  font-size: 18px;
+}
+
+.housingsContent .hostStars .host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.housingsContent .housingsCollapse {
+  display: flex;
+  column-gap: 76px;
+  margin-bottom: 50px;
+}
+
+.housingsContent .housingsCollapse div {
+  width: 100%;
+}
+
+.housingsContent .housingsCollapse ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 800px) {
+  .housingsContent {
+    width: 86%;
+    max-width: 1240px;
+    margin: 27px auto 0 auto;
+  }
+
+  .housingsContent .titleLocationHostStars {
+    flex-direction: column;
+    margin-bottom: 13px;
+  }
+
+  .housingsContent .titleLocation h1 {
+    font-size: 18px;
+  }
+
+  .housingsContent .titleLocation p {
+    font-size: 14px;
+  }
+
+  .housingsContent .titleLocation li {
+    font-size: 10px;
+    min-width: 84px;
+  }
+
+  .housingsContent .hostStars {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .housingsContent .hostStars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .housingsContent .hostStars .host {
+    font-size: 12px;
+    min-width: 0;
+  }
+
+  .housingsContent .housingsCollapse {
+    flex-direction: column;
+    row-gap: 19px;
+    margin-bottom: 27px;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .housingsContent .hostStars .host img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .housingsContent .hostStars .host p {
+    width: 25%;
+  }
+}

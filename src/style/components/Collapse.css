@@ -1,0 +1,42 @@
+.collapse {
+  font-weight: 500;
+  color: white;
+  background-color: #FF6060;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.collapsible-content {
+  color: #FF6060;
+  background-color: #F6F6F6;
+  margin: -5px auto 0 auto;
+  border-radius: 0 0 5px 5px;
+}
+
+.collapsible-content.open {
+  padding: 35px 30px 15px 15px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .collapse {
+    font-size: 13px;
+    padding: 0 10px;
+    border-radius: 7px;
+  }
+
+  .collapsible-content p {
+    font-size: 12px;
+  }
+
+  .collapsible-content.open {
+    padding-top: 20px;
+  }
+}
