@@ -8,6 +8,10 @@
   margin-bottom: 38px;
 }
 
+.about{
+  flex-grow: 1;
+}
+
 @media screen and (max-width: 800px) {
   .aboutCollapse {
     padding: 19px 0;

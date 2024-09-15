@@ -14,7 +14,7 @@ export default function About() {
 	const location = useLocation();
 
 	return (
-		<div>
+		<div className='about'>
 			{/* Affiche la bannière */}
 			<Banner location={location} />
 			{/* Conteneur pour afficher les sections */}
